@@ -1,0 +1,22 @@
+{
+    "name": "proyecto-henry/marketplace",
+    "description": "Marketplace local que conecta productores y consumidores. PHP puro (MVC) con capa de persistencia intercambiable (JSON / PostgreSQL / MongoDB).",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
+    "scripts": {
+        "start": "php -S localhost:8000 -t public public/index.php",
+        "seed": "php scripts/seed.php"
+    },
+    "comment": "El proyecto funciona SIN composer install gracias al autoloader propio en bootstrap.php. Ejecuta 'composer dump-autoload' solo si prefieres usar el autoloader de Composer."
+}

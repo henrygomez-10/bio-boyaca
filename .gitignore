@@ -1,0 +1,38 @@
+# Dependencias
+/vendor/
+
+# Base de datos local (archivos JSON generados)
+/storage/data/*.json
+
+# Imágenes de productos subidas por los usuarios
+/public/uploads/products/*
+!/public/uploads/products/.gitkeep
+
+# Entorno
+.env
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*~
+
+# Herramientas de IA / Claude (configuración y datos locales)
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+.cursor/
+.aider*
+.mcp.json
+
+# Logs y temporales
+*.log
+/storage/logs/*
+!/storage/logs/.gitkeep
+/tmp/
+*.tmp
+*.bak
+*.cache

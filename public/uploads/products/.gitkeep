@@ -1,0 +1,3 @@
+# Carpeta pública donde se guardan las imágenes subidas de los productos.
+# Los archivos subidos se ignoran en git (ver .gitignore); este .gitkeep
+# mantiene la carpeta en el control de versiones.

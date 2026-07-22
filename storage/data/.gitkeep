@@ -1,0 +1,3 @@
+# Esta carpeta almacena los archivos JSON de la base de datos local.
+# Los .json generados se ignoran en git (ver .gitignore); este .gitkeep
+# mantiene la carpeta en el control de versiones.

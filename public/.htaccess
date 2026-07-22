@@ -1,0 +1,15 @@
+# public/.htaccess
+# ------------------------------------------------------------------------------
+# Reescritura de URLs para Apache. Solo es necesario si sirves el proyecto con
+# Apache. Con el servidor embebido de PHP (php -S) NO se usa este archivo.
+#
+# Envía todas las peticiones que no correspondan a un archivo real hacia
+# index.php (front controller).
+# ------------------------------------------------------------------------------
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^ index.php [QSA,L]
+</IfModule>
