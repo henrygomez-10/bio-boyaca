@@ -17,7 +17,7 @@ Verificado clonando el repositorio en limpio: **funciona sin pasos extra**, pese
 a que `.gitignore` excluye la base de datos local, las imágenes subidas y `.env`.
 
 ```bash
-git clone https://github.com/miguelangels06/BioBoyaca.git
+git clone https://github.com/henrygomez-10/bio-boyaca.git
 cd BioBoyaca
 
 # 1. (Opcional) Datos de demostración. Ver el aviso de abajo.

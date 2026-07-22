@@ -43,7 +43,7 @@ los archivos `.json` se crean solos en la primera escritura. Tampoco necesitas
 crear un `.env` (todos los valores tienen defecto en `config/config.php`).
 
 ```bash
-git clone https://github.com/miguelangels06/BioBoyaca.git
+git clone https://github.com/henrygomez-10/bio-boyaca.git
 cd BioBoyaca
 
 # 1. Cargar datos de demostración (opcional pero recomendado)
